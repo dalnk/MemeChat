@@ -23,9 +23,13 @@ io.on('connection', socket => {
     })
   })
 })
-
 // Route
 app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/MemeChatCSS/index.html')
+})
+
+// Route
+app.get('/chat', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 })
 

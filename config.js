@@ -1,7 +1,7 @@
 // config.js
 export default {
   bucket: {
-    slug: process.env.COSMIC_BUCKET | 'meme-chate',
+    slug: 'meme-chate',
     type_slug: 'messages'
   }
 }
