@@ -162,7 +162,7 @@ class App extends Component {
     return (
       <div>
         <div style={ S('pl-15') }>
-          <h2>React Chat App</h2>
+          <h2>Global Memes</h2>
           <div ref="messages_scroll_area" style={ scroll_area_style }>
             <ul style={ S('p-0') }>{ messages_list }</ul>
           </div>
