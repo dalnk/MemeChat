@@ -8,6 +8,7 @@ import uuid from 'node-uuid'
 import S from 'shorti'
 import _ from 'lodash'
 import { Input } from 'react-bootstrap'
+import Autosuggest from 'react-autosuggest'
 
 class App extends Component {
 
@@ -120,6 +121,15 @@ class App extends Component {
   }
 
   render() {
+    let memes = [
+      { name: 'troll',
+        url: 'http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg'
+      },
+      {
+        name: 'trolls',
+        url: 'http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg'
+      }
+    ]
     const data = this.state.data
     let form_input
     if (!data.author) {
@@ -168,6 +178,15 @@ class App extends Component {
           </div>
         </div>
         <div style={ S('absolute b-0 w-100p pl-15 pr-15') }>
+          <div>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+          </div>
           <form onSubmit={ this.handleSubmit.bind(this) }>
             { form_input }
           </form>
