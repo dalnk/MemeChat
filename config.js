@@ -1,7 +1,7 @@
 // config.js
 export default {
   bucket: {
-    slug: 'meme-chate',
+    slug: 'memechate',
     type_slug: 'messages'
   }
 }
