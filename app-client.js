@@ -178,7 +178,12 @@ class App extends Component {
           </div>
         </div>
         <div style={ S('absolute b-0 w-100p pl-15 pr-15') }>
-          <div>
+          <div style={{maxWidth: '100%', overflow: 'hidden'}}>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
             <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
             <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
             <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
