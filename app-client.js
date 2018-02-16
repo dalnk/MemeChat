@@ -188,9 +188,6 @@ class App extends Component {
             <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
             <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
             <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
-            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
-            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
-            <img src="http://i0.kym-cdn.com/entries/icons/original/000/000/091/TrollFace.jpg" style={{maxHeight: '50px'}}/>
           </div>
           <form onSubmit={ this.handleSubmit.bind(this) }>
             { form_input }
